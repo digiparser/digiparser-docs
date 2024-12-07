@@ -1,6 +1,7 @@
 import type { ZudokuConfig } from "zudoku";
 
 const config: ZudokuConfig = {
+  basePath: "/docs",
   metadata: {
     title: "Digiparser Docs",
     applicationName: "Digiparser Docs",
@@ -17,23 +18,23 @@ const config: ZudokuConfig = {
     },
   },
   topNavigation: [
-    { id: "docs", label: "Documentation" },
+    { id: "guides", label: "Guides" },
     { id: "api", label: "API Reference" },
   ],
   sidebar: {
     docs: [
       {
         type: "category",
-        label: "Overview",
+        label: "Guides",
         items: [
-          "/docs/introduction",
+          "/guides/introduction",
         ],
       },
     ],
   },
   redirects: [
-    { from: "/", to: "/docs/introduction" },
-    { from: "/docs", to: "/docs/introduction" },
+    { from: "/", to: "/guides/introduction" },
+    { from: "/guides", to: "/guides/introduction" },
   ],
   apis: {
     type: "file",
