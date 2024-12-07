@@ -25,7 +25,7 @@ const config: ZudokuConfig = {
     docs: [
       {
         type: "category",
-        label: "Guides",
+        label: "Getting Started",
         items: [
           "/guides/introduction",
         ],
