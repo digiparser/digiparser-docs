@@ -1,6 +1,6 @@
-## Zudoku App
+## DigiParser Documentation
 
-This is a Zuplo app that was created with [`create-zudoku-app`](https://zudoku.dev/docs).
+This is the documentation site for DigiParser, built with Zudoku.dev.
 
 ## Getting Started
 
@@ -14,12 +14,22 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:9000](http://localhost:9000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/docs/intro.mdx`. You will see the content automatically update as you save the file.
+You can start editing the documentation by modifying `pages/docs/intro.mdx`. The content will automatically update as you save the file.
 
 ## Learn More
 
-To learn more about Zudoku, you can visit the [Zudoku documentation](https://zudoku.dev/docs).
+To learn more about DigiParser and its features, visit our [documentation](https://www.digiparser.com/docs).
 
-To connect with the community join the [GitHub Discussions](https://github.com/zuplo/zudoku/discussions) or [Discord](https://discord.zudoku.dev).
+## Contributing
+
+We welcome contributions! If you'd like to improve our documentation:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -am 'Add some improvement'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Open a Pull Request
+
+Feel free to submit issues and enhancement requests or join our community discussions.
