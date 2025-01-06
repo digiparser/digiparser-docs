@@ -46,6 +46,14 @@ const config: ZudokuConfig = {
           "/guides/getting-started/integrations",
         ],
       },
+      {
+        type: "category",
+        label: "Importing documents",
+        items: [
+          "/guides/importing-documents/uploading-documents",
+          "/guides/importing-documents/importing-from-email",
+        ],
+      },
     ],
   },
   redirects: [
