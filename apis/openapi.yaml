@@ -1,7 +1,18 @@
 openapi: 3.0.2
 info:
   title: DigiParser API
-  description: API documentation for DigiParser
+  description: |
+    DigiParser provides a powerful document processing API that helps you extract structured data from various document formats. 
+    
+    Key features:
+    - Extract data from PDFs, images, scanned documents, and digital files
+    - Process documents via direct file upload or URLs
+    - Convert unstructured documents into structured JSON data
+    - Support for async processing for large documents
+    - Automated data extraction with high accuracy
+    - Flexible output formats with both key-value pairs and raw data
+    
+    This API documentation provides all the endpoints and methods needed to integrate document processing capabilities into your applications.
   version: 1.0.0
 servers:
   - url: https://app.digiparser.com/api/v1

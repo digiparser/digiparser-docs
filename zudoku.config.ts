@@ -3,17 +3,17 @@ import type { ZudokuConfig } from "zudoku";
 const config: ZudokuConfig = {
   basePath: "/docs",
   metadata: {
-    title: "Digiparser Docs",
-    applicationName: "Digiparser Docs",
-    description: "Documentation for Digiparser",
+    title: "DigiParser Docs",
+    applicationName: "DigiParser Docs",
+    description: "Documentation for DigiParser",
     logo: "https://www.digiparser.com/img/logo.svg",
   },
   page: {
-    pageTitle: "Digiparser Docs",
+    pageTitle: "DigiParser Docs",
     logo: {
       src: {
-        light: "https://www.digiparser.com/img/logo.svg",
-        dark: "https://www.digiparser.com/img/logo.svg",
+        light: "https://www.digiparser.com/img/logo-default.png",
+        dark: "https://www.digiparser.com/img/logo-light.png",
       },
     },
   },
@@ -25,9 +25,19 @@ const config: ZudokuConfig = {
     docs: [
       {
         type: "category",
-        label: "Getting Started",
+        label: "Overview",
         items: [
           "/guides/introduction",
+          "/guides/overview/parsers",
+          "/guides/overview/workflows",
+          "/guides/overview/schemas",
+        ],
+      },
+      {
+        type: "category",
+        label: "Getting Started",
+        items: [
+          "/guides/getting-started/create-account",
         ],
       },
     ],
@@ -43,6 +53,20 @@ const config: ZudokuConfig = {
   },
   docs: {
     files: "/pages/**/*.{md,mdx}",
+  },
+  theme: {
+    light: {
+      primary: "243, 82%, 66%",
+      primaryForeground: "243, 82%, 66%",
+      background: "0, 0%, 100%",
+      foreground: "0, 0%, 0%",
+    },
+    dark: {
+      primary: "243, 82%, 66%",
+      primaryForeground: "243, 82%, 66%",
+      background: "0, 0%, 0%",
+      foreground: "0, 0%, 100%",
+    },
   },
 };
 
