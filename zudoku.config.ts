@@ -38,6 +38,12 @@ const config: ZudokuConfig = {
         label: "Getting Started",
         items: [
           "/guides/getting-started/create-account",
+          "/guides/getting-started/quick-start",
+          "/guides/getting-started/importing-documents",
+          "/guides/getting-started/exporting-data",
+          "/guides/getting-started/customizing-schema",
+          "/guides/getting-started/customizing-parser",
+          "/guides/getting-started/integrations",
         ],
       },
     ],
@@ -72,7 +78,6 @@ const config: ZudokuConfig = {
     siteUrl: "https://www.digiparser.com/docs",
     changefreq: "weekly",
     priority: 0.7,
-    // outDir: "",
     autoLastmod: true,
   },
 };
