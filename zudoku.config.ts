@@ -68,6 +68,13 @@ const config: ZudokuConfig = {
       foreground: "0, 0%, 100%",
     },
   },
+  sitemap: {
+    siteUrl: "https://www.digiparser.com/docs",
+    changefreq: "weekly",
+    priority: 0.7,
+    // outDir: "",
+    autoLastmod: true,
+  },
 };
 
 export default config;
