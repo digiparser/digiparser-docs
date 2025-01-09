@@ -7,6 +7,7 @@ const config: ZudokuConfig = {
     applicationName: "DigiParser Docs",
     description: "Documentation for DigiParser",
     logo: "https://www.digiparser.com/img/logo.svg",
+    
   },
   page: {
     pageTitle: "DigiParser Docs",
@@ -59,6 +60,8 @@ const config: ZudokuConfig = {
   redirects: [
     { from: "/", to: "/guides/introduction" },
     { from: "/guides", to: "/guides/introduction" },
+    { from: "/docs", to: "/guides/introduction" },
+    { from: "/docs/guides", to: "/guides/introduction" },
   ],
   apis: {
     type: "file",
